@@ -1,0 +1,80 @@
+/* تعيين الخلفية باستخدام الصورة background.jpg */
+body {
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  direction: rtl; /* يعرض المحتوى من اليمين لليسار */
+  color: #fff;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#search-input {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+#search-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#search-button:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#results {
+  margin: 30px auto;
+  width: 80%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.result-item {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+.download-button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.download-button:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
